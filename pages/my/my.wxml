@@ -1,0 +1,14 @@
+<!-- pages/my/my.wxml -->
+<view class='container'>
+
+  <view class='titleView'>
+    <image class='logo' src='../../imgs/logo.png'></image>
+    <view class='text'>肯德基KFC</view>
+  </view>
+
+  <view class='buttonView'>
+   <image class='icon' src="../../imgs/car.png"></image>
+    <view class='text'>外卖</view>
+  </view>
+  
+</view>

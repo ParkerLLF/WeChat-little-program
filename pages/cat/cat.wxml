@@ -1,0 +1,34 @@
+<!--pages/cat/cat.wxml-->
+<view class='container'>
+
+  <view class='header'>
+    <image class='logo' src='../../imgs/cat_logo.png'></image>
+    <text class='text'>爱宠宠物摄影</text>
+  </view>
+
+  <view class='nick'>
+    <text class='info'>  四川省成都市武侯区锦绣路一号保利中心C座14层1414号</text>
+    <text class='info'>  10:00-19:00</text>
+    <text class='info'>  028-85598862</text>
+  </view>
+
+  <view class='btnv'>
+    <button class='btn'>
+      <text class='text'> 现在预约</text>
+    </button>
+  </view>
+
+
+  <view class='imgbox'>
+    <text>门店图片</text>
+    <view class='img'>
+      <image src='../../imgs/1.jpg'></image>
+      <image src='../../imgs/2.jpg'></image>
+      <image src='../../imgs/3.jpg'></image>
+      <image src='../../imgs/4.jpg'></image>
+      <image src='../../imgs/5.jpg'></image>
+      <image src='../../imgs/5.jpg'></image>
+    </view>
+  </view>
+
+</view>

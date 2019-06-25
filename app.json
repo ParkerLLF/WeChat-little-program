@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/cat/cat",
+    "pages/my/my",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fafafa",
+    "navigationBarTitleText": "林良富",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "ccc",
+    "selectedColor": "000",
+    "backgroundColor": "fafafa",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "imgs/home.png",
+        "selectedIconPath": "imgs/home_active.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "通讯录",
+        "iconPath": "imgs/hot.png",
+        "selectedIconPath": "imgs/hot_active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我",
+        "iconPath": "imgs/user.png",
+        "selectedIconPath": "imgs/user_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

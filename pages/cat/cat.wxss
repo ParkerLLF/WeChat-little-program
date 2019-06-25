@@ -1,0 +1,102 @@
+/* pages/cat/cat.wxss */
+
+.container {
+  background-color: rgba(65, 58, 58, 0.3);
+  position: relative;
+}
+
+.text {
+  font-family: 'icomoon';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header {
+  width: 750rpcx;
+  height: 200rpx;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30rpx;
+  justify-content: flex-start;
+
+  background-color: red;
+
+  position: absolute;
+  left: 20rpx;
+  top: 0rpx;
+
+}
+
+.logo {
+  margin-left: 0rpx;
+  width: 145rpx;
+  height: 145rpx;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.header .text {
+  margin-left: 50rpx;
+}
+
+.btnv {
+  width: 700rpx;
+  height: 120rpx;
+  border-radius: 15rpx;
+  border: 1rpx #ccc solid;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: green;
+}
+
+.btn {
+  width: 700rpx;
+  height: 120rpx;
+}
+
+.nick {
+  width: 750rpx;
+  height: 330rpx;
+  background-color: aqua;
+  margin-top: 15rpx;
+  margin-bottom: 15rpx;
+}
+
+.info {
+  font-family: 'icomoon';
+  font-weight: normal;
+  font-style: normal;
+
+  display: flex;
+  flex-direction: row;
+
+  line-height: 35px;
+  margin-left: 15px;
+  color: #fff;
+}
+
+.imgbox {
+  /* margin-left: 20rpx; */
+  margin-top: 15rpx;
+  margin-bottom: -150rpx;
+  font-size: 28rpx;
+  color: #fff;
+  background-color: purple;
+}
+
+.imgbox text {
+  margin-left: 35rpx;
+}
+
+.img image {
+  border-radius: 25rpx;
+  width: 190rpx;
+  height: 190rpx;
+  margin-left: 35rpx;
+  margin-top: 35rpx;
+}
