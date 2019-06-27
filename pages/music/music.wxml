@@ -1,0 +1,59 @@
+<!--pages/music/music.wxml-->
+<view class='container'>
+
+  <view class='logo'>
+    <image src='../../imgs/music_logo.png'></image>
+    <text class='text'>成都左席音乐文化传媒有限公司</text>
+  </view>
+
+  <view class='infobox'>
+    <text class='text' bindtap='map'>  磨子街7号新棕北商务大厦</text>
+    <text class='text'>  8:00-00:00</text>
+    <text class='text' bindtap='phonecall' >  18080089955</text>
+  </view>
+
+  <view class='servicer'>
+    <image src='../../imgs/servicer.png'></image>
+    <text class='text'>小席</text>
+    <text class='lost'>离线</text>
+  </view>
+
+  <view class='btnv'>
+    <button class='btn' bindtap='phonecall'>
+      <text class='text phone'></text>
+      <text class='text now'>预约</text>
+      <text class='text go'>预约</text>
+      <text class='text pgo'></text>
+    </button>
+  </view>
+
+  <view class='btnv'>
+    <button class='btn'>
+      <text class='text now'>音乐</text>
+      <text class='text mgo'></text>
+    </button>
+  </view>
+
+  <view class='contextTitle'>门店图片</view>
+
+  <view class='picbox{{index}}' bindtap='showModel'></view>
+
+  <view class='rollbox'>
+    <swiper autoplay='ture' duration='1000' interval='2000' indicator-dots='ture'>
+      <view wx:for="{{imgUrls}}" wx:key="{{index}}">
+        <swiper-item>
+          <image src="{{item}}" width="400rpx" height="150rpx"></image>
+        </swiper-item>
+      </view>
+    </swiper>
+  </view>
+
+  <view class='imgbox'>
+    <view class='context' wx:for="{{music}}" wx:key="index" wx:if="{{index%3==0}}">
+      <image class='img' src='{{music[index]}}' bindtap='preImage' data-img="{{index}}"></image>
+      <image class='img' src='{{music[index+1]}}' bindtap='preImage' data-img="{{index+1}}"></image>
+      <image class='img' src='{{music[index+2]}}' bindtap='preImage' data-img="{{index+2}}"></image>
+    </view>
+  </view>
+
+</view>

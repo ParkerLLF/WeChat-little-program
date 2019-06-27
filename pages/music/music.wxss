@@ -1,0 +1,160 @@
+/* pages/music/music.wxss */
+
+.container {
+  margin: 0;
+  padding: 0;
+  background-color: #ccc;
+  /* height: 100%; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.text {
+  font-family: 'icomoon';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo {
+  width: 750rpx;
+  height: 200rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* background-color: pink; */
+}
+.logo image {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  margin-left: 20rpx;
+}
+
+.logo text {
+  margin-left: 20rpx;
+}
+
+/* 信息栏 */
+.infobox {
+  width: 750rpx;
+  height: 210rpx;
+  /* background-color: aqua; */
+  margin-top: 0rpx;
+  margin-bottom: 15rpx;
+}
+.infobox .text {
+  display: flex;
+  flex-direction: row;
+  height: 70rpx;
+  line-height: 70rpx;
+  margin-left: 20px;
+  color: #fff;
+}
+
+/* 客服 */
+.servicer {
+  width: 750rpx;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* background-color: pink; */
+  margin-bottom: 15rpx;
+}
+.servicer image {
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 35rpx;
+  margin-right: 20rpx;
+}
+.servicer .text {
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 30rpx;
+  font-weight: 700;
+}
+.servicer .lost {
+  font-family: 'icomoon';
+  font-weight: normal;
+  font-style: normal;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 28rpx;
+  margin-left: 480rpx;
+}
+
+/* 按钮 */
+.btn {
+  width: 700rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15rpx;
+}
+.phone, .now {
+  font-size: 40rpx;
+}
+.phone {
+  margin-right: 20rpx;
+  color: #ff9a0b;
+}
+.now {
+  color: #222;
+  font-weight: 700;
+}
+.go {
+  margin-left: 390rpx;
+  color: rgba(0, 0, 0, 0.35);
+  font-size: 28rpx;
+}
+.pgo {
+  color: rgba(0, 0, 0, 0.35);
+  font-size: 50rpx;
+}
+.mgo {
+  margin-left: 500rpx;
+  color: rgba(0, 0, 0, 0.35);
+  font-size: 50rpx;
+
+}
+/* 轮播图 */
+.rollbox swiper {
+  height: 300rpx;
+  width:750rpx;
+}
+.rollbox image {
+  height: 100%;
+  width: 100%;
+}
+/* 图片 */
+.imgbox {
+  margin-bottom: 75rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contextTitle{
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  width: 700rpx;
+  color: #222;
+  font-size: 32rpx;
+}
+.context{
+  margin-top: 10rpx;
+  display: flex;
+  width: 700rpx;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.context .img{
+  width: 230rpx;
+  height: 230rpx;
+  border-radius: 15rpx;
+}
+

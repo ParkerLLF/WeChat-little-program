@@ -20,7 +20,7 @@
 }
 
 .text{
-   margin-left: 30rpx;
+  margin-left: 30rpx;
   font-size: 40rpx;
   color: red;
 }

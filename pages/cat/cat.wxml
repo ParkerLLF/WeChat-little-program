@@ -15,6 +15,7 @@
   <view class='btnv'>
     <button class='btn'>
       <text class='text'> 现在预约</text>
+      <text class='text local'></text>
     </button>
   </view>
 
